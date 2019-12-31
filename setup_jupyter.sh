@@ -6,4 +6,5 @@ echo "PATH=/opt/anaconda3/bin:$PATH" | sudo tee -a /etc/environment
 source /etc/environment
 conda install -c conda-forge notebook
 conda install -c anaconda pandas
-conda install -c anaconda numpy 
+conda install -c anaconda numpy
+conda install -c anaconda seaborn 
